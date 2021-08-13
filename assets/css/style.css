@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.letra{
+    width:3rem;
+}
+
+.alinear{
+    display: inline-block;
+}
+
+.pie{
+  max-width: 100%;
+  text-align:  center;
+}
+
+

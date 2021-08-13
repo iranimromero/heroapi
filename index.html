@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- acceso a css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- icocno de la pagina -->
+    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico">
+    <!-- Del Canvas -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    
+    <title>Encuentra tu Heroe</title>
+  </head>
+  <body>
+<!--Nav-->
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/sh2.jpg"  alt="logo" class="d-inline-block align-text-center px-1  fs-1 text letra">
+        SuperHero
+      </a>
+    </div>
+  </nav>
+
+  <section>
+    <img src="assets/img/sh1.jpg"  alt="logo" class="mx-auto d-block p-3 pb-1">
+  </section>
+
+    <section class="container fluid pt-3 ">
+                <form>
+            <h1 class=" fs-1 ">Encunetra su SuperHero</h1>
+            <div class="mb-3 ">
+                <div class=" ">
+                    <label>Ingresa el numero del SuperHero a buscar</label>
+                </div>
+                <div>
+                    <input class="form-control" id="heroe">
+                </div>
+            </div>
+            
+            <button id="btn" type="submit" class="btn btn-primary">Buscar</button>
+          </form>
+    </section>
+
+    
+        <div class="container main"> 
+          <div class="row  text-center p-2"> 
+            <!-- Ficha informativa del Heroe -->
+            <div class="col-sm-12 col-md-6" id="superInfo"></div>
+            <!-- HTML de Canvas -->
+             <div class="col-sm-12 col-md-6"  id="chartContainer" style="height: 370px"></div>
+          </div>
+        </div>
+    
+
+
+    <footer id="contacto" class="bg-dark text-white text-center ">
+		        <p class="py-3">Full Stack Java By Irani Romero</p>
+		</footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+ 
+     <!--javascript-->
+     <script src="assets/js/scrip.js"></script>
+
+  </body>
+</html>
